@@ -1,6 +1,5 @@
 numpy
 flask
-pickle
 theano
 tensorflow
 keras
