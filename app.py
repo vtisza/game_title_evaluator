@@ -14,4 +14,5 @@ def hello(name="No title"):
     score=predictor.predict(str(name))
     return render_template('index.html', score=score)
 
-app.run(debug=False)
+if __name__ == '__main__':
+    app.run(debug=True)
