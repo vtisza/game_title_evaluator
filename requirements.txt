@@ -4,3 +4,4 @@ theano
 tensorflow
 keras
 gunicorn
+h5py
