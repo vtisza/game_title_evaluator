@@ -26,11 +26,11 @@
   </form>
 
   {% if score %}
-    <h4>{{ score }}</h4>
+    <div class="desc">{{ score }}</div>
   {% else %}
-    <h4>App will predict you the expected score on a game review (on a scale 0-10) just based on the title of the game.
+    <div class="desc">Only using the title of the game app will predict you the expected score of a game review (on a scale between 0-10).
       Scoring model was created by a deep neural network with RNN. Tested on an IGN game review dataset (>10.000 review).
-      Average error rate was less than 1.5 points only using game titles to predict.</h4>
+      Average error rate was less than 1.5 points only using game titles to predict.</div>
   {% endif %}
 
   <a class="follow" href="https://github.com/vtisza/game_title_evaluator" target="_blank"><i class="fa fa-github"></i>See project on Github</a>
