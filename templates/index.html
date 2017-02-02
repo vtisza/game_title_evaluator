@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Computer game title evaluator</title>
+
+<link rel="stylesheet" href="{{ url_for('static',filename='custom_1.css') }}" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-indigo.min.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+</head>
+<body>
+
+  <h2>Computer game title evaluator<br><small>Powered by deep learning</small></h2>
+
+  <form action="/score/" method="get">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="title" name="title">
+      <label class="mdl-textfield__label" for="title">Game title...</label>
+    </div>
+    <button class="waves-effect mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect dl-button--colored" type="submit">
+     <i class="material-icons left">cloud</i>
+      Score me
+   </button>
+  </form>
+
+  {% if score %}
+    <h4>{{ score }}</h4>
+  {% endif %}
+
+  <a class="follow" href="https://github.com/vtisza/game_title_evaluator" target="_blank"><i class="fa fa-github"></i>See project on Github</a>
+
+</body>
+</html>
