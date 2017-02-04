@@ -3,9 +3,9 @@ form {
   margin: 100px 50px 20px;
   padding-bottom: 40px;
   border-radius: 30px;
+  padding: 20px;
   h1 {
     box-sizing: border-box;
-    padding: 20px;
   }
 }
 
@@ -16,17 +16,6 @@ h2 {
     border-radius: 10px;
     text-align: center;
   }
-
-form {
-  box-sizing: border-box;
-  margin: 100px 50px 20px;
-  padding-bottom: 40px;
-  border-radius: 30px;
-  h1 {
-    box-sizing: border-box;
-    padding: 20px;
-  }
-}
 
 .follow {
   font-size: 28px;
@@ -65,6 +54,16 @@ i {
 .desc {
     box-sizing: border-box;
     font-size: 16px;
+    padding: 20px 20px 10px;
+    margin: 100px 50px 20px;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+  }
+
+.desc_pred {
+    box-sizing: border-box;
+    font-size: 20px;
     padding: 20px 20px 10px;
     margin: 100px 50px 20px;
     border-radius: 10px;
