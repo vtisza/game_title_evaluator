@@ -1,3 +1,7 @@
+@keyframes type{
+  from { width: 0; }
+}
+
 form {
   box-sizing: border-box;
   margin: 3%;
@@ -53,6 +57,11 @@ i {
   }
 
 .desc_pred {
+    color: dark;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 5s steps(60, end);
     box-sizing: border-box;
     font-size: 18px;
     padding: 3%;
