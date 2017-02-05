@@ -1,9 +1,9 @@
 form {
   box-sizing: border-box;
-  margin: 100px 50px 20px;
-  padding-bottom: 40px;
-  border-radius: 30px;
-  padding: 20px;
+  margin: 50px 50px 2px;
+  padding-bottom: 40px 40px 5px;
+  border-radius: 30px 30px 5x;
+  padding: 20px 20px 2px;
   h1 {
     box-sizing: border-box;
   }
@@ -11,8 +11,8 @@ form {
 
 h2 {
     box-sizing: border-box;
-    margin: 80px 30px 20px;
-    padding-bottom: 40px;
+    margin: 80px 30px 2px;
+    padding-bottom: 40px 40px 10px;
     border-radius: 10px;
     text-align: center;
   }
@@ -53,10 +53,10 @@ i {
 
 .desc {
     box-sizing: border-box;
-    font-size: 16px;
-    padding: 20px 20px 5px;
-    margin: 100px 50px 5px;
-    border-radius: 10px;
+    font-size: 16px 16px 14px;
+    padding: 20px 20px 2px;
+    margin: 100px 50px 2px;
+    border-radius: 10px 10px 2px;
     font-family: Roboto, sans-serif;
     text-align: justify;
   }
@@ -64,9 +64,9 @@ i {
 .desc_pred {
     box-sizing: border-box;
     font-size: 20px;
-    padding: 20px 20px 5px;
-    margin: 100px 50px 5px;
-    border-radius: 10px;
+    padding: 20px 20px 2px;
+    margin: 100px 50px 2px;
+    border-radius: 10px 10px 2px;
     font-family: Roboto, sans-serif;
     text-align: justify;
   }
