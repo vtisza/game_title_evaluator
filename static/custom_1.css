@@ -1,9 +1,9 @@
 form {
   box-sizing: border-box;
-  margin: 50px 50px 2px;
-  padding-bottom: 40px 40px 5px;
-  border-radius: 30px 30px 5x;
-  padding: 20px 20px 2px;
+  margin: 3%;
+  padding: 3%;
+  padding-top: 7%;
+  border-radius: 30px 30px 5px;
   h1 {
     box-sizing: border-box;
   }
@@ -11,13 +11,13 @@ form {
 
 h2 {
     box-sizing: border-box;
-    margin: 80px 30px 2px;
-    padding-bottom: 40px 40px 10px;
+    margin: 1%;
     border-radius: 10px;
     text-align: center;
   }
 
 .follow {
+  text-align: center;
   font-size: 28px;
   width: 42px;
   height: 42px;
@@ -35,15 +35,6 @@ h2 {
   box-shadow: 0 5px 6px 0 rgba(0,0,0,0.2);
 }
 
-.follow:hover {
-  width: 240px;
-  font-size: 18px;
-  transform: translateX(-50px);
-  i {
-    margin-right: 10px;
-    font-size: 38px;
-  }
-}
 
 i {
   margin-right: 20px;
@@ -53,9 +44,9 @@ i {
 
 .desc {
     box-sizing: border-box;
-    font-size: 16px 16px 14px;
-    padding: 20px 20px 2px;
-    margin: 100px 50px 2px;
+    font-size: 16px;
+    padding: 3%;
+    margin: 3%;
     border-radius: 10px 10px 2px;
     font-family: Roboto, sans-serif;
     text-align: justify;
@@ -63,9 +54,9 @@ i {
 
 .desc_pred {
     box-sizing: border-box;
-    font-size: 20px;
-    padding: 20px 20px 2px;
-    margin: 100px 50px 2px;
+    font-size: 18px;
+    padding: 3%;
+    margin: 3%;
     border-radius: 10px 10px 2px;
     font-family: Roboto, sans-serif;
     text-align: justify;
